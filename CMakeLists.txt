@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR} CACHE PATH "Cmake prefix" FORCE)
 set(CMAKE_BUILD_TYPE Release CACHE STRING "Default to Release" FORCE)
 project(test_parser CXX)
 set(CMAKE_SUPPRESS_REGENERATION ON)
